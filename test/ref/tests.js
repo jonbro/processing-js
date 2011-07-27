@@ -164,6 +164,7 @@ var tests = [
   { path: "beginEndShape-3dtriangles2.pde", tags:["endShape3D", "3D"], epsilonOverride: 0.15 },
   { path: "beginEndShape-3dtrianglestrip1.pde", tags:["endShape3D", "3D"], epsilonOverride: 0.20 },
   { path: "beginEndShape-3dtrianglestrip2.pde", tags:["endShape3D", "3D"], epsilonOverride: 0.20 },
+  { path: "3d-alpha.pde", tags: ["3D"], epsilonOverride: 0.07 },
   { path: "texture_noShape.pde", tags: ["3D"], epsilonOverride: 0.07 },
   { path: "texture_triangles.pde", tags: ["3D"], epsilonOverride: 0.07 },
   { path: "texture_norm.pde", tags: ["3D"], epsilonOverride: 0.07 },

@@ -2000,7 +2000,7 @@
       // If there were no lights this draw call, just use the
       // assigned fill color of the shape and the specular value
       "  if( lightCount == 0 ) {" +
-      "    frontColor = col + vec4(mat_specular,1.0);" +
+      "    frontColor = vec4( col.rgb + mat_specular.rgb, col[3] );" +
       "  }" +
       "  else {" +
            // WebGL forces us to iterate over a constant value
